@@ -1,0 +1,90 @@
+/* NOTES */
+
+
+/* BootStrap Libs *//* BootStrap Libs */
+/* BootStrap Libs *//* BootStrap Libs */
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+/* jQuery Libs *//* jQuery Libs */
+/* jQuery Libs *//* jQuery Libs */
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+/* min-width means that the web page is at least the defined pixels or greater. */
+
+/* max-width means that the web page is the defined pixel size or smaller. */
+
+
+/* Large desktops */
+@media only screen and (min-width: 1200px){}
+
+/* Desktops */
+@media only screen and (min-width: 992px){}
+
+/* Tablets desktops */
+@media only screen and (min-width: 768px){}
+
+/* Phones desktops */
+@media only screen and (min-width: 576px){}
+
+
+/* Loads jQuery after DOM. */
+/* Loads jQuery after DOM. */
+
+
+$(window).bind("load", function(){}
+
+
+/* Smooth Scroll *//* Smooth Scroll */
+/* Smooth Scroll *//* Smooth Scroll */
+
+<script>
+$("a[href='#top']").click(function() {
+$("html, body").animate({ scrollTop: 0 }, "slow");
+return false;
+});
+</script>
+
+/* Transition element and Lock in place */
+/* Transition element and Lock in place */
+
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-5%);
+  }
+}
+  .et_pb_section_0{
+    animation: slideInFromBottom 1s;
+  	animation-timing-function:linear;
+  	animation-delay:1s;
+  	animation-fill-mode:forwards;
+  	animation-iteration-count: 1;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 -webkit-animation:slideInFromBottom 1.5s;
+ 	 -webkit-animation-timing-function:linear;
+ 	 -webkit-animation-delay:1s;
+ 	 -webkit-animation-fill-mode: forwards;
+  }
+  
+  
+  /* How to scale your image on hover */
+  /* How to scale your image on hover */
+  
+  
+  <a href="https://stackoverflow.com/questions/14971697/css-mouse-hover-change-image-position-and-size"></a>
+
+
+/* The Cursor */
+/* The Cursor */
+
+
+<a href="https://css-tricks.com/using-css-cursors/"></a>
